@@ -1,18 +1,32 @@
-## Dictionary Operations in Python: Merging Two Dictionaries
+## To find sum of all items in a Dictionary 
 
 ## 🎯 Aim
-To write a Python program that merges **two dictionaries** and combines their key-value pairs.
+To write a Python program to find the sum of all items (values) in a dictionary.
 
 ## 🧠 Algorithm
-1. Define two dictionaries `dict1` and `dict2` with some key-value pairs.
-2. Define a function `merge()` that merges the two dictionaries using the `**` unpacking operator.
-   - The merged result will combine keys from both dictionaries. If a key exists in both, the value from `dict2` will overwrite that from `dict1`.
-3. Call the `merge()` function and print the merged dictionary.
+1.Start
 
+2.Create a dictionary with key–value pairs.
+Example: d = {'a':100, 'b':200, 'c':300}
+
+3.Extract all the values from the dictionary using d.values().
+
+4.Find the sum of all the values using the sum() function.
+Example: result = sum(d.values())
+
+5.Display the result using the print() statement.
+
+6.Stop
 ## 🧾 Program
-
-Add code here
+```
+d={'a':100,'b':200,'c':300}
+result=sum(d.values())
+print("Sum :",result)
+```
 
 ## Output
+<img width="751" height="162" alt="image" src="https://github.com/user-attachments/assets/1e2fd08d-b205-40af-a05c-377f19a7e290" />
+
 
 ## Result
+The program successfully computes the sum of all dictionary values.
